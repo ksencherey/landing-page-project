@@ -1,0 +1,131 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ededed;
+  font-family: "Arial", helvetica, san-serif;
+  position: relative;
+}
+
+nav {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+}
+h1 {
+  display: inline;
+  color: yellow;
+  font-size: 30px;
+  line-height: 30px;
+  padding-left: 30px;
+}
+header {
+  display: inline;
+  margin-right: 700px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 20px;
+}
+
+a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+.nav {
+  padding-top: 30px;
+  display: inline;
+}
+.menu {
+  display: inline;
+  position: absolute;
+  right: 5%;
+}
+
+main {
+  padding-top: 100px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+}
+img {
+  width: 800px;
+  border: 2px solid #ededed;
+}
+.center-image,
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 800px;
+  height: 540px;
+  background-color: grey;
+  text-align: center;
+  padding-top: 30px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin: 20px;
+  width: 500px;
+}
+#fname,
+#lname,
+#email {
+  font-size: 18px;
+}
+
+#submit,
+#message {
+  font-size: 20px;
+}
+
+#submit {
+  background-color: tomato;
+}
+
+#submit:hover {
+  background-color: green;
+  cursor: pointer;
+  color: white;
+}
+
+#fname:hover,
+#lname:hover,
+#message:hover,
+#email:hover {
+  background-color: #ededed;
+}
+
+footer {
+  background-color: lightgray;
+  height: 70px;
+  width: 100%;
+  /*position: fixed;*/
+  bottom: 0;
+  display: flex;
+}
+
+.icon {
+  width: 40px;
+  margin-left: 20px;
+  border: none;
+  color: red;
+}
+.copyright {
+  padding-left: 400px;
+  padding-top: 20px;
+}
